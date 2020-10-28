@@ -1,0 +1,132 @@
+<aside class="main-sidebar">
+    <!-- sidebar: style can be found in sidebar.less -->
+    <section class="sidebar">
+      <!-- Sidebar user panel -->      
+      <!-- sidebar menu: : style can be found in sidebar.less -->
+      <ul class="sidebar-menu">
+        <li class="header">MAIN NAVIGATION</li>
+        <li class="treeview">
+          <a href="#">
+            <i class="fa fa-dashboard"></i> <span>Dashboard</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('web/dashboard'); ?>"><i class="fa fa-circle-o"></i> Dashboard</a></li>            
+          </ul>
+        </li>
+		<li class="treeview active">
+          <a href="#">
+            <i class="fa fa-tasks"></i>
+            <span>Productivity</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('productivity/ytd'); ?>"><i class="fa fa-circle-o"></i> 2G EDGE</a></li>            
+            <li><a class="ajax" href="<?php echo base_url('productivity/ytd'); ?>"><i class="fa fa-circle-o"></i> 3G UMTS</a></li>            
+            <li><a class="ajax" href="<?php echo base_url('productivity/ytd'); ?>"><i class="fa fa-circle-o"></i> 4G LTE</a></li>            
+            <li><a class="ajax" href="<?php echo base_url('productivity/ytd'); ?>"><i class="fa fa-circle-o"></i> Productivity Nationwide</a></li>            
+            <li><a class="ajax" href="<?php echo base_url('productivity/daily'); ?>"><i class="fa fa-circle-o"></i> Productivity Daily</a></li>            
+            <li><a class="ajax" href="<?php echo base_url('productivity/hourly'); ?>"><i class="fa fa-circle-o"></i> Productivity Hourly</a></li>                                    
+            <li><a class="ajax" href="<?php echo base_url('productivity/worst'); ?>"><i class="fa fa-circle-o"></i> Top Worst Productivity Site</a></li>            
+          </ul>
+        </li>
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-files-o"></i>
+            <span>Quality</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('quality/kpi/edge'); ?>"><i class="fa fa-circle-o"></i> KPI 2G</a></li>
+            <li><a class="ajax" href="<?php echo base_url('quality/kpi/hsdpa'); ?>"><i class="fa fa-circle-o"></i> KPI 3G</a></li>
+            <li><a class="ajax" href="<?php echo base_url('quality/kpi/lte'); ?>"><i class="fa fa-circle-o"></i> KPI 4G</a></li>                      
+            <li><a class="ajax" href="<?php echo base_url('quality/wpc/edge'); ?>"><i class="fa fa-circle-o"></i> WPC 2G</a></li>                      
+            <li><a class="ajax" href="<?php echo base_url('quality/packetloss'); ?>"><i class="fa fa-circle-o"></i> Packet Loss</a></li>                        
+          </ul>
+        </li>
+		<li class="treeview active">
+          <a href="#">
+            <i class="fa fa-signal"></i>
+            <span>Traffica</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('traffica/import_core'); ?>"><i class="fa fa-circle-o"></i> Import File Log Core</a></li>           
+          </ul>
+        </li>
+		<li class="treeview active">
+          <a href="#">
+            <i class="fa  fa-calendar-check-o"></i>
+            <span>Evently</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('event/autoreport'); ?>"><i class="fa fa-circle-o"></i> Event Autor Reporting</a></li>           
+          </ul>
+        </li>
+		<li class="treeview active">
+          <a href="#">
+            <i class="fa fa-yelp"></i>
+            <span>Maps</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('surround/mapsur'); ?>"><i class="fa fa-circle-o"></i> Surr Event & SITE </a></li>           
+            <li><a class="ajax" href="<?php echo base_url('surround/mapsurcomp'); ?>"><i class="fa fa-circle-o"></i> Surr Kompetitor </a></li>           
+            <li><a class="ajax" href="<?php echo base_url('surround/mapsurcp'); ?>"><i class="fa fa-circle-o"></i> Surr Tier CP 1 </a></li>           
+            <li><a class="ajax" href="<?php echo base_url('map/utilall'); ?>"><i class="fa fa-circle-o"></i> Conggest All</a></li>           
+          </ul>
+        </li>
+		<li class="treeview active">
+          <a href="#">
+            <i class="fa fa-yelp"></i>
+            <span>Download</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('download/downs'); ?>"><i class="fa fa-circle-o"></i> Download</a></li>           
+          </ul>
+        </li>
+		<li class="treeview active">
+          <a href="#">
+            <i class="fa fa-gear"></i>
+            <span>Setting</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('setting/user'); ?>"><i class="fa fa-circle-o"></i> User</a></li>           
+            <li><a class="ajax" href="<?php echo base_url('setting/menu'); ?>"><i class="fa fa-circle-o"></i> Menu</a></li>           
+          </ul>
+        </li>
+		<li class="treeview active">
+          <a href="#">
+            <i class="fa fa-gear"></i>
+            <span>Absen</span>
+            <span class="pull-right-container">
+              <span class="label label-primary pull-right"></span>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li><a class="ajax" href="<?php echo base_url('absen/rekap'); ?>"><i class="fa fa-circle-o"></i> Rekap</a></li>           
+          </ul>
+        </li>		                
+      </ul>
+    </section>
+    <!-- /.sidebar -->
+  </aside>
